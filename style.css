@@ -5,8 +5,9 @@ body {
 h1,
 h2 {
   font-weight: 800;
+  margin-left: 5px;
 }
-a {
+footer a {
   background-color: whitesmoke;
   text-decoration: none;
 }
@@ -31,10 +32,21 @@ a {
   vertical-align: middle;
   width: 30%;
   max-width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
 
 .div-sobre {
   display: inline-block;
   vertical-align: middle;
   width: 65%;
+}
+
+.lista-impares {
+  display: inline-block;
+}
+.lista-impares li:nth-child(odd) {
+  background-color: #d0d0f0;
 }
