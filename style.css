@@ -1,0 +1,20 @@
+body{
+    background-color: #ddecf8;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+    
+    font-weight: 800;
+}
+a{
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+.destaque{
+    font-size:21px;
+    font-weight: bold;
+}
+.habilidade{
+    font-size:18px;
+}
